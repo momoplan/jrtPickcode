@@ -1,0 +1,14 @@
+	Public.js   所有js都能适用的公共js
+------------------------------------------------------------------------
+GetRandNumber（）      产生随机号码
+
+
+------------------------------------------------------------------------
+利用Javascript中每个对象(Object)的prototype属性我们可以为Javascript中的内置对象添加我们自己的方法和属性
+String.prototype.ltrim=function(){}   去除左边空格   
+String.prototype.trim = function(){}  去除空格
+String.prototype.rtrimWithReturn = function()  用返回值代替空格
+String.prototype.rtrim = function()   去除右边空格   
+----------------------------------------------------------------------------
+Round()   产生随机数
+------------------------------------------------------------------------
